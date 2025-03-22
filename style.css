@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Recursive';
+    src: url('Recursive/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf') format('truetype-variations');
+    font-weight: 300 900;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Recursive', sans-serif;
+  }
+  
+  h1 {
+    font-variation-settings: 'wght' 800, 'slnt' -15;
+  }
+  
+  p {
+    font-variation-settings: 'CASL' 1, 'MONO' 0;
+  }
